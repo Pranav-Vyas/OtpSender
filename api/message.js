@@ -1,6 +1,6 @@
 const express = require("express");
 const Message = require("../models/messageSchema");
-const client = require('twilio')('AC3df786961ee4aa651caaabf293590921', 'e4cd2d22af9473aaf6546e221a2a09eb');
+const client = require('twilio')(process.env.SID, process.env.TOKEN);
 
 const router = express.Router();
 

@@ -1,0 +1,23 @@
+.message-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: 15px;
+    background-color: #F8F9FA;
+    border: 1px solid;
+}
+ .message-header {
+     text-align: center;
+     width: 100%;
+     padding: 20px;
+     border-bottom: 1px solid;
+ }
+
+ .message-name {
+     border-right: 1px solid;
+ }
+
+ .message-footer {
+     padding: 15px;
+ }
